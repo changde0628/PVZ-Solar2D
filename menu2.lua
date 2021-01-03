@@ -2,7 +2,7 @@ local composer = require( "composer" )
 local scene = composer.newScene()
 local widget = require "widget"
 
-local backgroundMusic = audio.loadStream( "backgroundmusic.mp3" )
+backgroundMusic = audio.loadStream( "backgroundmusic.mp3" )
 audio.play( backgroundMusic, {channel=1, loops=-1})
 local BackGround,dispObj_1,yeeda
 -- Function to handle button events
